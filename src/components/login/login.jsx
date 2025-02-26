@@ -2,16 +2,20 @@ import react from "react"
 function Login(){
     return(
         <div>
-            <img src="https://media.baamboozle.com/uploads/images/960138/1677600448_50792.jpeg" />
             <div>
-            <input />
-            <input />
+                <img src="https://media.baamboozle.com/uploads/images/960138/1677600448_50792.jpeg" />
             </div>
             <div>
-            <button>Forget Password</button>
-            <button>Login</button>
+                <input />
+                <input />
             </div>
-            <button>Create an Account</button>
+            <div>
+                <button>Forget Password</button>
+                <button>Login</button>
+            </div>
+            <div>
+                <button>Create an Account</button>
+            </div>
         </div>
     );
 }
