@@ -1,7 +1,8 @@
 import react from "react"
 function Login(){
     return(
-        <div>
+        <div className = "login_form">
+        <form>
             <div>
                 <img src="https://media.baamboozle.com/uploads/images/960138/1677600448_50792.jpeg" />
             </div>
@@ -16,7 +17,9 @@ function Login(){
             <div>
                 <button>Create an Account</button>
             </div>
+            </form>
         </div>
     );
 }
 export {Login};
+//just Add a Comment
