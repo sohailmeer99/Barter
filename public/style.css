@@ -3,14 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
-.login_form{
-    /* outline: 1px solid black; */
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    /* margin: 0 auto; center a block element on x-axis  */
+.login_container{
     display: flex;
-    justify-content: center; /* align items horizontally*/
-    align-items: center;  /* align items vertically*/
-    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;    
+}
+.login_img {
+    display: flex;
+    justify-content: center;
+}
+
+.login_form img {
+    width: 20%;
+    height: 10%;
+}
+
+.login_inputs{
+    display: flex;
+    flex-direction: column;
+}
+.login_buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "Fbutton Sbutton"
+    "Tbutton Tbutton";
+}
+.login_buttons button:nth-child(1){
+    grid-area: Fbutton;
+}
+.login_buttons button:nth-child(2){
+    grid-area: Sbutton;
+}
+.login_buttons button:nth-child(3){
+    grid-area: Tbutton;
 }
