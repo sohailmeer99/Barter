@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.login_container{
+/* .login_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,4 +66,19 @@
     grid-area: Tbutton;
     margin-top: 2px;
     border-radius: 50px;
+} */
+.login_container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ;
+}
+.login_img{
+    grid-area: loginimg;
+}
+.login_inputs{
+    grid-area: logininputs;
+}
+.login_button{
+    grid-area: loginbutton1;
 }

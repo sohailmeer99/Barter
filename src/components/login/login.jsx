@@ -2,7 +2,6 @@ import react from "react"
 function Login(){
     return(
         <div className="login_container">
-        
         <form className = "login_form">
             <div className="login_img">
                 <img src="https://media.baamboozle.com/uploads/images/960138/1677600448_50792.jpeg" />
@@ -18,7 +17,6 @@ function Login(){
             </div>
             </form>
         </div>
-        
     );
 }
 export {Login};
