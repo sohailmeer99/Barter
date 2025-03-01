@@ -2,39 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
-/* .login_container{
+.login_container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: 80dvh;
 }
 .login_form{
-    border: 1px solid black;
-    width: 300px;
+    width: 400px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.login_img {
-    display: flex;
-    justify-content: center;
+.login_logo{
+    font-size: 3rem;
+    color: #3D3D3D;
 }
-
-.login_form img {
-    width: 80px;
-    height: 50px;
-}
-
 .login_inputs{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 .login_inputs input{
+    border: 1px solid #3D3D3D;
     padding: 5px;
     height: 45px;
     font-size: 20px;
+}
+.login_buttons button:hover{
+    transition: 0.3s;
+    background-color: #1A1A1D;
 }
 .login_inputs input:nth-child(1){
     margin: 20px 0 10px 0;
@@ -45,6 +45,7 @@
 .login_buttons{
     width: 100%;
     display: grid;
+    gap: 5px 1px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -52,33 +53,18 @@
     "Tbutton Tbutton";
 }
 .login_buttons button{
+    border: none;
+    color: #fff;
+    background-color: #3D3D3D;
     height: 35px;
+    cursor: pointer;
 }
 .login_buttons button:nth-child(1){
     grid-area: Fbutton;
-    border-radius: 50px 0 0 50px;
 }
 .login_buttons button:nth-child(2){
     grid-area: Sbutton;
-    border-radius: 0 50px 50px 0;
 }
 .login_buttons button:nth-child(3){
     grid-area: Tbutton;
-    margin-top: 2px;
-    border-radius: 50px;
-} */
-.login_container{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: ;
-}
-.login_img{
-    grid-area: loginimg;
-}
-.login_inputs{
-    grid-area: logininputs;
-}
-.login_button{
-    grid-area: loginbutton1;
 }
