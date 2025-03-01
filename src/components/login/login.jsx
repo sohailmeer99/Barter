@@ -5,7 +5,6 @@ function Login(){
         <form className = "login_form">
             <div className="login_logo">
             <h1>Barter.</h1>
-                {/* <img src="https://media.baamboozle.com/uploads/images/960138/1677600448_50792.jpeg" /> */}
             </div>
             <div className="login_inputs">
                 <input />
