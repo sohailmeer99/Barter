@@ -15,7 +15,7 @@ function Login(){
                 {noInput && <input placeholder="Re-enter Your Password" />}
             </div>
             <div className="login_buttons">
-                <button type="button">{buttonText ? "Forget Password" : "Forget Password"}</button>
+                <button type="button">{buttonText ? "About" : "Forget Password"}</button>
                 <button type="button">{buttonText ? "Register" : "Log In"}</button>
                 <button type="button" onClick={()=>  {updateButton(!buttonText); lastInput(!noInput);}}>{buttonText ? "Back to Log In" : "Create an Account"}</button>
             </div>
