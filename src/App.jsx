@@ -3,7 +3,7 @@ import Homepage from "./components/home_page/Homepage.jsx";
 import { useState } from "react";
 
 function App(){
-    const user = true;
+    const user = false;
     return(
         user? <Homepage />  : <Login />
     );
