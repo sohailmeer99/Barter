@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useGlobalState  } from "../../useState";
 
 function Login(){
-   const [guest, setGuest] = useState(false);
-   const [buttonText, updateButton] = useState(false);
+    const { guest, setGuest, buttonText, updateButton, noInput, lastInput } = useGlobalState();
+//    const [guest, setGuest] = useState(false);
+//    const [buttonText, updateButton] = useState(false);
 //    console.log("buttonText is " + buttonText);
-   const [noInput, lastInput] = useState(false);
+//    const [noInput, lastInput] = useState(false);
     function guestClick(){
         buttonText ? setGuest(true) : null
     }
