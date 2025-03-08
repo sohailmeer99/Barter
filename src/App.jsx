@@ -1,6 +1,6 @@
 import {GlobalStateProvider, useGlobalState} from "./useState.jsx"
 import { Login } from "./components/login/login.jsx";
-import Homepage from "./components/home_page/Homepage.jsx";
+import Homepage from "./components/home_page/guestpage.jsx";
 
 function App(){
     const { guest } = useGlobalState(); // Access guest state

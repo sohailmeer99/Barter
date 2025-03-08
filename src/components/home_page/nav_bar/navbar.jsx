@@ -13,12 +13,12 @@ function Navbar(){
                     </div>
                     <div>
                         <button className="nav-icon">
-                            <span><i className="fa-solid fa-user" style={{fontSize : "25px", padding : "5px", backgroundColor : "#fff", color : "#3D3D3D"}}></i></span>
+                            <span><i className="fa-solid fa-user" style={{fontSize : "25px", padding : "5px"}}></i></span>
                         </button>
                     </div>
                     <div>
                         <button className="nav-icon">
-                            <span><i className="fa-duotone fa-solid fa-gear" style={{fontSize : "25px", padding : "5px", backgroundColor : "#fff", color : "#3D3D3D"}}></i></span>
+                            <span><i className="fa-duotone fa-solid fa-gear" style={{fontSize : "25px", padding : "5px"}}></i></span>
                         </button>
                     </div>
                     </div>

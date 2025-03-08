@@ -36,7 +36,7 @@
 }
 .login_buttons button:hover{
     transition: 0.3s;
-    background-color: #3D3D3D;
+    background-color: #1D1616;
 }
 .login_inputs input:nth-child(1){
     margin: 20px 0 10px 0;
@@ -77,4 +77,48 @@ input::placeholder{
 }
 .login_buttons button:nth-child(3){
     grid-area: Tbutton;
+}
+.navbar{
+    width: 100vw;
+    background-color: #3D3D3D;
+    padding: 10px 5px;
+}
+.navbar-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-left h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.navbar-right{
+    width: 20vw;
+    display:flex;
+    flex-direction:row;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+}
+.nav-searchbar{
+    border: none;
+    width: 350px;
+    height: 35px;
+    font-size: 1.2rem;
+}
+.nav-searchbar:focus{
+    border: none;
+    outline: none;
+}
+.nav-icon{
+    border: none;
+    outline: none;
+}
+.fa-solid{
+    background-color: #fff;
+    color: #3D3D3D;
+}
+.nav-icon:hover .fa-solid{
+    color: #1D1616;
 }
