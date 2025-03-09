@@ -88,6 +88,7 @@ input::placeholder{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
 }
 .navbar-left h1{
     color: #fff;
