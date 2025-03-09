@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
 }
 .login_container{
     display: flex;
@@ -116,9 +117,12 @@ input::placeholder{
     border: none;
     outline: none;
 }
-.fa-solid{
+.fa-solid,.fa-search{
     background-color: #fff;
     color: #3D3D3D;
+}
+.fa-search:hover{
+    color: #1D1616;
 }
 .nav-icon:hover .fa-solid{
     color: #1D1616;
