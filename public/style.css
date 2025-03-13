@@ -80,9 +80,10 @@ input::placeholder{
     grid-area: Tbutton;
 }
 .navbar{
-    width: 100vw;
+    width: 100%;
     background-color: #3D3D3D;
     padding: 10px 5px;
+    position: fixed;
 }
 .navbar-div{
     display: flex;
@@ -126,4 +127,37 @@ input::placeholder{
 }
 .nav-icon:hover .fa-solid{
     color: #1D1616;
+
+}
+.product_card_section{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.product_card{
+    width: 200px;
+    height: 500px;
+}
+.product_card_img1 img{
+    width: 100%;
+    height: 400px;
+    object-fit:fill;
+}
+.product_card_img2 img{
+    width: 100%;
+    height: 400px;
+    object-fit:fill;
+}
+
+.product_card_img3 img{
+    width: 100%;
+    height: 400px;
+    object-fit:fill;
+}
+.product_card{
+    border:1px solid black ;
+    height: 400px;
+    width: 300px;
 }
